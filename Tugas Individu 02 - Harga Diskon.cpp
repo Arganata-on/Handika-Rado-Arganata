@@ -8,7 +8,7 @@ int main(){
 
     std::cout << "Harga : " << hargaAsli << " ribu" << '\n';
     std::cout << "Diskon : " << diskon << '\n'; 
-    std::cout << "Besarnya diskon dari harga : " << hargaAsli * (diskon/100) << '\n';
+    std::cout << "Besarnya diskon dari harga : " << besarDiskon << '\n';
     std::cout << "Harga setelah diskon " << hargaFinal << " ribu";
     return 0;
 }
