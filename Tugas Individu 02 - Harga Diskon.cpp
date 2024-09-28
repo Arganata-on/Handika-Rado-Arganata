@@ -9,6 +9,6 @@ int main(){
     std::cout << "Harga : " << hargaAsli << " ribu" << '\n';
     std::cout << "Diskon : " << diskon << '\n';
     std::cout << "Besarnya diskon dari harga : " << besarnyaDiskon << '\n';
-    std::cout << "Harga Setelah diskon " << hargaSetelah << " ribu";
+    std::cout << "Harga setelah diskon " << hargaSetelah << " ribu";
     return 0;
 }
