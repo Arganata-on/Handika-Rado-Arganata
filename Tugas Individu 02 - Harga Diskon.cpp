@@ -3,7 +3,7 @@
 int main(){
     int hargaAsli = 150000;
     double diskon = 12.5;
-    int besarDiskon = hargaAsli * (diskon/100);
+    double besarDiskon = hargaAsli * (diskon/100);
     int hargaFinal = hargaAsli - besarDiskon;
 
     std::cout << "Harga : " << hargaAsli << " ribu" << '\n';
