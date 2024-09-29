@@ -1,14 +1,14 @@
 #include <iostream>
 
+using namespace std;
 int main(){
-    int hargaAsli = 150000;
-    double diskon = 12.5;
-    double besarDiskon = hargaAsli * (diskon/100);
-    int hargaFinal = hargaAsli - besarDiskon;
+int hargaAwal = 150000;
+double diskon = 12.5;
+double besarDiskon = hargaAwal * diskon/100;
+int hargaAkhir = hargaAwal - besarDiskon;
 
-    std::cout << "Harga : " << hargaAsli << " ribu" << '\n';
-    std::cout << "Diskon : " << diskon << '\n'; 
-    std::cout << "Besarnya diskon dari harga : " << besarDiskon << '\n';
-    std::cout << "Harga setelah diskon " << hargaFinal << " ribu";
-    return 0;
+cout << "Harga : " <<  hargaAwal << " ribu" << '\n';
+cout << "Diskon : " << diskon << '\n';
+cout << "Besarnya diskon dari harga : " << besarDiskon << '\n';
+cout << "Harga setelah diskon " << hargaAkhir << " ribu" << '\n';
 }
